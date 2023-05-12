@@ -1,4 +1,9 @@
 
+//Felipe Roldan
+//tp1 comision3
+
+
+
 int segundos;
 
 int posY0;
@@ -19,7 +24,6 @@ PFont  fuente;
 boolean pant0comp;
 boolean pant1comp;
 boolean pant2comp;
-boolean pant3comp;
 
 void setup() {
   size(640, 480);
@@ -51,7 +55,7 @@ void setup() {
 void draw() {
   background(255);
 
-
+textFont(fuente, 30);
 
 
   if (segundos>=12) {
@@ -118,7 +122,7 @@ fill(255);
   
   
   //texto pantalla 2
-  loadFont("BerlinSansFB-Bold-48.vlw");
+
  fill(255,0,0);
   text(" El arte digital, más allá de una técnica\n, se vuelve un manifiesto y una \n resistencia que habla de cómo percibimos \n e interactuamos en el mundo. ", width/18, posY2);
   if (pant1comp== false) {
